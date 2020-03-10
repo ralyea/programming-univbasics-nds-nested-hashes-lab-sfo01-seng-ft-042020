@@ -13,7 +13,7 @@ def assembled_aoh
 end
 
 def literal_aoh
-  arr = Array,
+  arr = Array.[],
   arr.unshift(DON_G)
   # Using Array literal syntax only, build a nested array that uses the data in
   # held in the constants
