@@ -13,11 +13,11 @@ def assembled_aoh
 end
 
 def literal_aoh
-  arr = Array.[],
-  arr.unshift(DON_G)
+  arr = Array.[](DON_G, JOELLE_VD, PAT_M, KATE_G, BRUCE_G),
+  arr
+end 
   # Using Array literal syntax only, build a nested array that uses the data in
   # held in the constants
-end
 
 def aoh_lookup(aoh, row, key)
 end
